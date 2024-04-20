@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zero\Documents\VuGen\Scripts\GOOD\UC03_BuyTicket
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\zero\documents\vugen\scripts\good\uc03_buyticket\\logfile.log
+c:\users\zero\documents\vugen\scripts\good\uc03_buyticket\\combined_UC03_BuyTicket.c
+c:\users\zero\documents\vugen\scripts\good\uc03_buyticket\\pre_cci.c

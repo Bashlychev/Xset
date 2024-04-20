@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zero\Documents\VuGen\Scripts\GOOD\UC04_ShowTicketsList
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\zero\documents\vugen\scripts\good\uc04_showticketslist\\logfile.log
+c:\users\zero\documents\vugen\scripts\good\uc04_showticketslist\\combined_UC04_ShowTicketsList.c
+c:\users\zero\documents\vugen\scripts\good\uc04_showticketslist\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zero\Documents\VuGen\Scripts\GOOD\UC06_UserRegistation
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\zero\documents\vugen\scripts\good\uc06_userregistation\\logfile.log
+c:\users\zero\documents\vugen\scripts\good\uc06_userregistation\\combined_UC06_UserRegistation.c
+c:\users\zero\documents\vugen\scripts\good\uc06_userregistation\\pre_cci.c

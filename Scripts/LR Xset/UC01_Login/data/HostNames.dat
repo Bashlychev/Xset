@@ -1,0 +1,4 @@
+[hosts]
+detectportal.firefox.com=
+ocsp.digicert.com=
+localhost=

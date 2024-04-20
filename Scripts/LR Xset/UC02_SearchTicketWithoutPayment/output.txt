@@ -1,0 +1,84 @@
+Virtual User Script started at: 20/04/2024 18:56:49
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\zero\Documents\VuGen\Scripts\GOOD\UC02_SearchTicketWithoutPayment\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "UC02_01_HomePage" started.
+Action.c(11): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(11): web_url("WebTours") was successful, 366 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(20): Warning -35046: The WebSocket whose ID is "0" is not connected  	[MsgId: MWAR-35046]
+Action.c(20): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(30): web_custom_request("home.html") started  	[MsgId: MMSG-26355]
+Action.c(30): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(30): web_custom_request("home.html") was successful, 1361 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(40): web_url("welcome.pl") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(51): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(59): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(59): web_url("nav.pl") was successful, 1489 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(71): Notify: Transaction "UC02_01_HomePage" ended with a "Pass" status (Duration: 0.2670 Wasted Time: 0.0639).
+Action.c(75): Notify: Transaction "UC02_02_Login" started.
+Action.c(79): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(79): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(84): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(84): Registered web_reg_find successful for "Text=User password was not correct"  	[MsgId: MMSG-26362]
+Action.c(84): web_submit_data("login.pl") was successful, 452 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(100): web_url("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(100): web_url("login.pl_2") was successful, 914 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(118): Notify: Transaction "UC02_02_Login" ended with a "Pass" status (Duration: 0.1568 Wasted Time: 0.0061).
+Action.c(122): Notify: Transaction "UC02_03_FindFlight" started.
+Action.c(126): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(126): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(128): Registered web_reg_find successful for "Text=User has returned to the search page" (count=1)  	[MsgId: MMSG-26364]
+Action.c(128): web_url("Search Flights Button") was successful, 616 body bytes, 215 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(137): web_url("nav.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(137): web_url("nav.pl_3") was successful, 1482 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): web_url("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(147): web_url("reservations.pl") was successful, 4246 body bytes, 255 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(156): Notify: Transaction "UC02_03_FindFlight" ended with a "Pass" status (Duration: 0.2479 Wasted Time: 0.0090).
+Action.c(160): Notify: Transaction "UC02_04_FindFlight_ChooseDate" started.
+Action.c(163): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(163): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(172): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(172): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(174): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(174): Registered web_reg_find successful for "Text=Flight departing from <B>	Denver</B> to <B>	Zurich</B> on <B>04/22/2024</B>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(174): web_submit_data("reservations.pl_2") was successful, 2411 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(197): Notify: Transaction "UC02_04_FindFlight_ChooseDate" ended with a "Pass" status (Duration: 0.0945 Wasted Time: 0.0032).
+Action.c(201): Notify: Transaction "UC02_05_ChooseTIme" started.
+Action.c(205): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(205): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(207): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(207): Registered web_reg_find successful for "Text=Payment Details" (count=1)  	[MsgId: MMSG-26364]
+Action.c(207): web_submit_data("reservations.pl_3") was successful, 2633 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(224): Notify: Transaction "UC02_05_ChooseTIme" ended with a "Pass" status (Duration: 0.0932 Wasted Time: 0.0039).
+Action.c(228): Notify: Transaction "UC02_06_Exit" started.
+Action.c(232): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(232): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(235): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(235): Registered web_reg_find successful for "Text=The server options can be set via the Admin page" (count=1)  	[MsgId: MMSG-26364]
+Action.c(235): web_url("SignOff Button") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(244): web_url("nav.pl_4") started  	[MsgId: MMSG-26355]
+Action.c(244): web_url("nav.pl_4") was successful, 1489 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(253): Notify: Transaction "UC02_06_Exit" ended with a "Pass" status (Duration: 0.1580 Wasted Time: 0.0058).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

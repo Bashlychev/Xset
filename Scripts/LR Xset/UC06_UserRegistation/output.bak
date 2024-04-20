@@ -1,0 +1,68 @@
+Virtual User Script started at: 20/04/2024 18:50:44
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\zero\Documents\VuGen\Scripts\GOOD\UC06_UserRegistation\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "UC06_01_HomePage" started.
+Action.c(11): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(11): web_url("WebTours") was successful, 366 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(20): Warning -35046: The WebSocket whose ID is "0" is not connected  	[MsgId: MWAR-35046]
+Action.c(20): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(25): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(25): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(28): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(28): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+Action.c(28): web_url("welcome.pl") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(38): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(38): web_url("nav.pl") was successful, 1488 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(47): Notify: Transaction "UC06_01_HomePage" ended with a "Pass" status (Duration: 0.2367 Wasted Time: 0.0617).
+Action.c(52): Notify: Transaction "UC06_02_Registration" started.
+Action.c(56): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Action.c(56): web_url("sign up now") was successful, 2429 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(65): Notify: Transaction "UC06_02_Registration" ended with a "Pass" status (Duration: 0.0624 Wasted Time: 0.0038).
+Action.c(69): Notify: Transaction "UC06_03_DataInput" started.
+Action.c(72): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(72): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(75): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(75): Registered web_reg_find successful for "Text=Thank you, <b>920275342</b>, for registering and welcome to the Web Tours family." (count=1)  	[MsgId: MMSG-26364]
+Action.c(75): web_submit_data("login.pl") was successful, 1082 body bytes, 353 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "UC06_03_DataInput" ended with a "Pass" status (Duration: 0.0935 Wasted Time: 0.0042).
+Action.c(98): Notify: Transaction "UC06_04_Continue1" started.
+Action.c(102): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(102): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(104): web_url("button_next.gif_2") started  	[MsgId: MMSG-26355]
+Action.c(104): Registered web_reg_find successful for "Text=User has returned to the home page." (count=1)  	[MsgId: MMSG-26364]
+Action.c(104): web_url("button_next.gif_2") was successful, 596 body bytes, 215 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(113): web_url("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(113): web_url("login.pl_2") was successful, 923 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(122): web_url("nav.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(122): web_url("nav.pl_2") was successful, 1482 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(131): Notify: Transaction "UC06_04_Continue1" ended with a "Pass" status (Duration: 0.2517 Wasted Time: 0.0088).
+Action.c(135): Notify: Transaction "UC06_05_Exit" started.
+Action.c(139): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(139): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(142): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(142): Registered web_reg_find successful for "Text=The server options can be set via the Admin page" (count=1)  	[MsgId: MMSG-26364]
+Action.c(142): web_url("SignOff Button") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(151): web_url("home.html_2") started  	[MsgId: MMSG-26355]
+Action.c(151): web_url("home.html_2") was successful, 1361 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(159): web_url("nav.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(159): web_url("nav.pl_3") was successful, 1486 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(168): Notify: Transaction "UC06_05_Exit" ended with a "Pass" status (Duration: 0.1729 Wasted Time: 0.0086).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

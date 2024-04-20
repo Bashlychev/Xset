@@ -1,0 +1,735 @@
+[API Trapper      (1348:1ba8)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[API Trapper      (3d88:1a68)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (3d88: b8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3d88: b8c)] Load Network Traffic Analyzers:
+[Network Analyzer (3d88: b8c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3d88: b8c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3d88: b8c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3d88: b8c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3d88: b8c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3d88: b8c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3d88: b8c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3d88: b8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3d88:12ec)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Net An. Debug    (3d88:12ec)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.88.86
+[API Trapper      (2eb0:1bf8)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (3d88: b8c)] Establish Listener @ 127.0.0.1:15907
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:15907   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 13 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.117.237.239:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:364c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.160.144.191:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:2d1c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.149.100.209:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:2d1c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: 9b8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: 184)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /canonical.html"   
+[Network Analyzer (3d88:12ec)]   (Sid:  7) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  7) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:43dc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 35.244.181.201:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 185.5.161.225:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:2758)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 185.5.161.225:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 10) Client -> Server @ : 425 bytes (Service=HTTP)
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 11) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (3d88:2758)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 10) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 11) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 185.5.161.225:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 185.5.161.225:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 13) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 12) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 13) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 12) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 192.229.221.95:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 15) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /success.txt?ipv4"   
+[Network Analyzer (3d88:12ec)]   (Sid: 14) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: 184)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:364c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:43dc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: 9b8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /v1/tiles"   
+[Network Analyzer (3d88:12ec)]   (Sid:  3) Client -> Server @ : 262 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /"   
+[Network Analyzer (3d88:12ec)]   (Sid:  6) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "POST /submit/firefox-desktop/events/1/43afd590-c9f6-456b-8f23-cb34e226265e"   
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Client -> Server @ : 1624 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 14) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 15) Server -> Client : 267 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  3) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  6) Server -> Client : 240 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 198 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3d88:12ec)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/"   
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 15) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /submit/firefox-desktop/use-counters/1/4df97746-b57c-467f-9369-f9949fe798fb"   
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Client -> Server @ : 1402 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 192.229.221.95:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/header.html"   
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Client -> Server @ : 523 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 1008 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  6) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (3d88:12ec)]   (Sid:  6) Client -> Server @ : 64 bytes (SSL)(Service=WEBS)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Web Request      (3d88:12ec)] "GET /favicon.ico"   
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (3d88:12ec)]   (Sid: 19) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 19) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Client -> Server @ : 564 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/home.html"   
+[Network Analyzer (3d88:12ec)]   (Sid: 19) Client -> Server @ : 560 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 19) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /"   
+[Network Analyzer (3d88:12ec)]   (Sid: 11) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 11) Server -> Client : 889 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 39 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /submit/firefox-desktop/pageload/1/13e594c0-00c4-4dcf-b9aa-3fd103d52fdd"   
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Client -> Server @ : 1008 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  6) Server -> Client : 115 bytes (SSL) (Service=WEBS)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 15) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /update/6/Firefox/125.0.1/20240416043247/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3296%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16050/default/default/update.xml?force=1"   
+[Network Analyzer (3d88:12ec)]   (Sid:  9) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 265 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /submit/firefox-desktop/newtab/1/decf0e21-4a11-49f3-87da-88919d774058"   
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Client -> Server @ : 1088 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  9) Server -> Client : 420 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  9) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /submit/firefox-desktop/baseline/1/a45e7021-a3dd-4cdf-9765-aa26ce5d4df5"   
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Client -> Server @ : 1386 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  8) Server -> Client : 807 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (3d88:12ec)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (3d88:12ec)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 793 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 871 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 693 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 613 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 23) Client -> Server @ : 613 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 23) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Client -> Server @ : 613 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 730 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 813 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 715 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Client -> Server @ : 698 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 2883 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Client -> Server @ : 611 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Client -> Server @ : 623 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Client -> Server @ : 876 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 1149 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 6 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Client -> Server @ : 730 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88: b8c)] Address lookup for DESKTOP-G5CG1SO = 192.168.56.1
+[Network Analyzer (3d88: b8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3d88:12ec)] "GET /WebTours/home.html"   
+[Network Analyzer (3d88:12ec)]   (Sid: 26) Client -> Server @ : 657 bytes (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 26) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3d88:12ec)]   (Sid:  2) Client -> Server @ : 1 bytes 

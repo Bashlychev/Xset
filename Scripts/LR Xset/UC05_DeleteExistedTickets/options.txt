@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zero\Documents\VuGen\Scripts\GOOD\UC05_DeleteExistedTickets
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\zero\documents\vugen\scripts\good\uc05_deleteexistedtickets\\logfile.log
+c:\users\zero\documents\vugen\scripts\good\uc05_deleteexistedtickets\\combined_UC05_DeleteExistedTickets.c
+c:\users\zero\documents\vugen\scripts\good\uc05_deleteexistedtickets\\pre_cci.c
