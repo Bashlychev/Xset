@@ -2,7 +2,10 @@ import java.io.*;
 
 public class SecondMethod {
     public static void main(String[] args) {
-        try (BufferedReader bR = new BufferedReader(new FileReader("text.txt"))) {
+        BufferedReader bR = null;
+        FileWriter fW = null;
+        try {
+            bR = new BufferedReader(new FileReader("text.txt"));
             StringBuffer sB = new StringBuffer();
             String line;
             while ((line = bR.readLine()) != null) {
@@ -25,7 +28,7 @@ public class SecondMethod {
                 }
             }
 
-            FileWriter fW = new FileWriter("export.txt"); //Экспорт в файл
+            fW = new FileWriter("export.txt"); //Экспорт в файл
             fW.write(text.toString());
             fW.flush();
 
@@ -34,6 +37,15 @@ public class SecondMethod {
 
         } catch (IOException e) {
             System.err.println("Error: " + e.getMessage());
+        } finally {
+            try {
+                if (bR != null)
+                    bR.close();
+                if (fW != null)
+                    fW.close();
+            } catch (IOException e) {
+                System.err.println("Error while closing resources: " + e.getMessage());
+            }
         }
     }
 
@@ -43,4 +55,4 @@ public class SecondMethod {
     }
 }
 
-//111
+//123
