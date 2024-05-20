@@ -9,6 +9,5 @@ abstract class Product {
         this.weight = weight;
         this.price = price;
     }
-    // Метод для получения уникального параметра продукта
     public abstract String getUniqueParameter();
 }
