@@ -46,8 +46,8 @@ class ProductBox implements BoxInterface {
     }
 
     @Override
-    public void optimizeWeight(double targetWeight) {
-        while (getTotalWeight() > targetWeight) {
+    public void optimizeWeight(double maxWeight) {
+        while (getTotalWeight() > maxWeight) {
             int minWeightIndex = 0;
             double minWeight = Double.MAX_VALUE;
             for (int i = 0; i < products.size(); i++) {
@@ -61,8 +61,8 @@ class ProductBox implements BoxInterface {
     }
 
     @Override
-    public void optimizePrice(double targetPrice) {
-        while (getTotalPrice() > targetPrice) {
+    public void optimizePrice(double maxPrice) {
+        while (getTotalPrice() > maxPrice) {
             int minPriceIndex = 0;
             double minPrice = Double.MAX_VALUE;
             for (int i = 0; i < products.size(); i++) {
