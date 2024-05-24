@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 class ProductBox implements BoxInterface {
@@ -44,34 +45,18 @@ class ProductBox implements BoxInterface {
                     " г, Цена: " + product.price + " руб, " + product.getUniqueParameter());
         }
     }
-
     @Override
     public void optimizeWeight(double maxWeight) {
-        while (getTotalWeight() > maxWeight) {
-            int minWeightIndex = 0;
-            double minWeight = Double.MAX_VALUE;
-            for (int i = 0; i < products.size(); i++) {
-                if (products.get(i).weight < minWeight) {
-                    minWeight = products.get(i).weight;
-                    minWeightIndex = i;
-                }
-            }
-            removeProduct(minWeightIndex);
+        products.sort(Comparator.comparingDouble(s -> s.weight));
+        while (getTotalWeight() > maxWeight && !products.isEmpty()) {
+            products.remove(0);
         }
     }
-
     @Override
-    public void optimizePrice(double maxPrice) {
-        while (getTotalPrice() > maxPrice) {
-            int minPriceIndex = 0;
-            double minPrice = Double.MAX_VALUE;
-            for (int i = 0; i < products.size(); i++) {
-                if (products.get(i).price < minPrice) {
-                    minPrice = products.get(i).price;
-                    minPriceIndex = i;
-                }
-            }
-            removeProduct(minPriceIndex);
+    public void optimizePrice(double maxWeight) {
+        products.sort(Comparator.comparingDouble(s -> s.price));
+        while (getTotalWeight() > maxWeight && !products.isEmpty()) {
+            products.remove(0);
         }
     }
 }
