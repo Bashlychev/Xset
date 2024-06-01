@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="wheel" class="com.example.hw22.Details.Wheel"/>
+    <bean id="starter" class="com.example.hw22.Details.Starter"/>
+    <bean id="sparkPlug" class="com.example.hw22.Details.SparkPlug"/>
+    <bean id="accumulator" class="com.example.hw22.Details.Accumulator"/>
+    <bean id="hinge" class="com.example.hw22.Details.Hinge"/>
+    <bean id="differential" class="com.example.hw22.Details.Differential"/>
+
+    <bean id="engine" class="com.example.hw22.Details.Engine">
+        <constructor-arg ref="starter"/>
+        <constructor-arg ref="sparkPlug"/>
+    </bean>
+
+    <bean id="suspension" class="com.example.hw22.Details.Suspension">
+        <constructor-arg ref="hinge"/>
+        <constructor-arg ref="differential"/>
+    </bean>
+
+    <bean id="car" class="com.example.hw22.Details.Car">
+        <constructor-arg ref="wheel"/>
+        <constructor-arg ref="engine"/>
+        <constructor-arg ref="accumulator"/>
+        <constructor-arg ref="suspension"/>
+    </bean>
+</beans>
