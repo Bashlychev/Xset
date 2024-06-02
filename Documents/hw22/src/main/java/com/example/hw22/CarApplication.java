@@ -1,6 +1,7 @@
-package com.example.hw22.Params;
+package com.example.hw22;
 
 import com.example.hw22.Details.Car;
+import com.example.hw22.Params.AppConfig;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -33,3 +34,4 @@ public class CarApplication implements CommandLineRunner {
         System.out.println("Car from Java Code: " + carJavaCode);
     }
 }
+
