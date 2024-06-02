@@ -10,7 +10,7 @@ public class Car {
     private Accumulator accumulator;
     private Suspension suspension;
 
-//    @Autowired
+    @Autowired
     public Car(Wheel wheel, Engine engine, Accumulator accumulator, Suspension suspension) {
         this.wheel = wheel;
         this.engine = engine;

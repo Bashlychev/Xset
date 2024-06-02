@@ -32,9 +32,9 @@ public class AppConfig {
     public Hinge hinge() {
         return new Hinge();
     }
-
-    @Bean
-    public Differential differential() { return new Differential(); }
+//
+//    @Bean
+//    public Differential differential() { return new Differential(); }
 
     @Bean
     public Engine engine() {
