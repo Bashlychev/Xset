@@ -1,0 +1,50 @@
+package com.example.demo;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+@RestController
+@RequestMapping(value = "/app/v1")
+public class RequestController {
+
+    @GetMapping(value = "/getRequest")
+    public ResponseEntity<String> getRequest(@RequestParam int id, @RequestParam String name) throws IOException, InterruptedException {
+        if (id <= 10 || name.length() <= 5) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Internal Server Error: Invalid id or name length");
+        }
+
+        if (id > 10 && id < 50) {
+            Thread.sleep(1000);
+        } else {
+            Thread.sleep(500);
+        }
+
+        String response = new String(Files.readAllBytes(Paths.get("target/classes/getAnswer.txt")));
+        response = response.replace("{id}", String.valueOf(id))
+                .replace("{name}", name);
+
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/postRequest")
+    public ResponseEntity<String> postRequest(@RequestBody PostRequestBody requestBody) throws IOException {
+        if (requestBody.getName().isEmpty() || requestBody.getSurname().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Internal Server Error: Name or surname cannot be empty");
+        }
+
+        String response = new String(Files.readAllBytes(Paths.get("target/classes/postAnswer.txt")));
+        Integer age = requestBody.getAge() == null ? 123 : requestBody.getAge();
+        response = response.replace("{name}", requestBody.getName())
+                .replace("{surname}", requestBody.getSurname())
+                .replace("{age}", String.valueOf(age))
+                .replace("{age}*2", String.valueOf(age * 2));
+        return ResponseEntity.ok(response);
+    }
+}
