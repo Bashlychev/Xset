@@ -7,6 +7,6 @@
     "Person2": {
         "name": "{surname}",
         "surname": "{name}",
-        "age": {age}*2
+        "age": 2age
     }
 }
