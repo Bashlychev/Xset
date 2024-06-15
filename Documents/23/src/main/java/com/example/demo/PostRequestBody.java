@@ -1,8 +1,12 @@
 package com.example.demo;
 
+import javax.validation.constraints.NotNull;
+
+
 public class PostRequestBody {
     private String name;
     private String surname;
+    @NotNull
     private Integer age;
 
     
