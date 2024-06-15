@@ -3,6 +3,7 @@ package com.example.demo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import javax.validation.Valid;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -38,7 +39,7 @@ public class RequestController {
     }
 
     @PostMapping("/postRequest")
-    public ResponseEntity<String> postRequest(@RequestBody PostRequestBody requestBody) throws IOException {
+    public ResponseEntity<String> postRequest(@Valid @RequestBody PostRequestBody requestBody) throws IOException {
         if (requestBody.getName().isEmpty() || requestBody.getSurname().isEmpty()) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body("Internal Server Error: Имя или фамилия не могут быть пустыми");
@@ -48,8 +49,14 @@ public class RequestController {
         Integer age = requestBody.getAge() == null ? 123 : requestBody.getAge();
         response = response.replace("{name}", requestBody.getName())
                 .replace("{surname}", requestBody.getSurname())
-                .replace("{age}", String.valueOf(age))
-                .replace("2age", String.valueOf(requestBody.getAge() * 2));
+                .replace("{age}", String.valueOf(age));
+
+        if (requestBody.getAge() != null) {
+            response = response.replace("2age", String.valueOf(requestBody.getAge() * 2));
+        } else {
+            response = response.replace("2age", "246"); // 123 * 2
+        }
+
         return ResponseEntity.ok(response);
     }
 }
