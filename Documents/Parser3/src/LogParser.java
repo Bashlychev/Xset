@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class LogParser {
 
     public static void main(String[] args) {
-        String logFile = "production_log.csv";
+        String logFile = "src/production_log.csv";
         String startTimeStr = "2024-06-18T19:00:01";
         String endTimeStr = "2024-06-18T20:00:01";
 
@@ -19,6 +19,7 @@ public class LogParser {
 
         String[] apiEndpoints = {"/api/signDoc", "/api/addDoc", "/api/sendMessage", "/api/getMessage", "/api/getDocByName"};
         int[] counts = new int[apiEndpoints.length];
+        int totalRequests = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(logFile))) {
             String line;
@@ -31,6 +32,7 @@ public class LogParser {
                         for (int i = 0; i < apiEndpoints.length; i++) {
                             if (line.contains(apiEndpoints[i])) {
                                 counts[i]++;
+                                totalRequests++;
                             }
                         }
                     }
@@ -41,7 +43,8 @@ public class LogParser {
         }
 
         for (int i = 0; i < apiEndpoints.length; i++) {
-            System.out.println("Запрос " + apiEndpoints[i] + " вызывался: " + counts[i] + " раз(а)");
+            double percentage = (totalRequests > 0) ? (counts[i] * 100.0 / totalRequests) : 0.0;
+            System.out.printf("Запрос %s вызывался: %d раз(а) (%.2f%%)\n", apiEndpoints[i], counts[i], percentage);
         }
     }
 
